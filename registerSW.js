@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/binderos-app/sw.js', { scope: '/binderos-app/' })})}
